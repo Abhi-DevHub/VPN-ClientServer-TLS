@@ -1,0 +1,38 @@
+2025-04-20 21:21:49,291 - INFO - SSL context created and certificate loaded.
+2025-04-20 21:21:49,293 - INFO - TLS VPN Server started on 0.0.0.0:8443
+2025-04-20 21:21:49,295 - INFO - Heartbeat monitor started.
+2025-04-20 21:22:35,209 - INFO - Incoming connection from 127.0.0.1:51170
+2025-04-20 21:22:35,209 - INFO - Received nickname 'Client A' from ('127.0.0.1', 51170)
+2025-04-20 21:22:35,210 - INFO - Client Client A@('127.0.0.1', 51170) accepted.
+2025-04-20 21:23:29,113 - INFO - Incoming connection from 127.0.0.1:51274
+2025-04-20 21:23:29,113 - INFO - Received nickname 'Client B' from ('127.0.0.1', 51274)
+2025-04-20 21:23:29,114 - INFO - Client Client B@('127.0.0.1', 51274) accepted.
+2025-04-20 21:23:38,584 - INFO - [Client B] initiating file transfer '4th Sem RR Campus Course Information.pdf' (1248528 bytes) to Client A
+2025-04-20 21:23:38,632 - INFO - Successfully relayed file '4th Sem RR Campus Course Information.pdf' (1248528 bytes) from Client B to Client A
+2025-04-20 21:26:25,244 - INFO - [Client B] Msg received: Client A:this is msg for the client B...
+2025-04-20 21:26:25,245 - INFO - Relayed message from Client B to Client A
+2025-04-20 21:27:24,204 - INFO - [Client A] Msg received: Client B:and this is msg from the client A...
+2025-04-20 21:27:24,204 - INFO - Relayed message from Client A to Client B
+2025-04-20 21:27:25,376 - INFO - [Client A] Msg received: Client B:and this is msg from the client A...
+2025-04-20 21:27:25,377 - INFO - Relayed message from Client A to Client B
+2025-04-20 21:27:27,594 - INFO - [Client A] Msg received: Client B:and this is msg from the client A...
+2025-04-20 21:27:27,594 - INFO - Relayed message from Client A to Client B
+2025-04-20 21:27:30,995 - INFO - [Client A] Msg received: Client B:and this is msg from the client A...
+2025-04-20 21:27:30,995 - INFO - Relayed message from Client A to Client B
+2025-04-20 21:27:36,336 - INFO - [Client B] Msg received: Client A:this is msg for the client B...
+2025-04-20 21:27:36,336 - INFO - Relayed message from Client B to Client A
+2025-04-20 21:28:15,615 - INFO - Incoming connection from 127.0.0.1:51840
+2025-04-20 21:28:15,616 - INFO - Received nickname 'Client A' from ('127.0.0.1', 51840)
+2025-04-20 21:28:15,616 - WARNING - Nickname conflict or invalid nickname for Client A from ('127.0.0.1', 51840).
+2025-04-20 21:28:15,617 - INFO - Closing connection handler for Client A from ('127.0.0.1', 51840)
+2025-04-20 21:28:15,617 - INFO - Cleaned up client Client A
+2025-04-20 21:28:15,618 - INFO - Client Client A disconnected gracefully (recv returned empty).
+2025-04-20 21:28:15,618 - INFO - Closing connection handler for Client A from ('127.0.0.1', 51170)
+2025-04-20 21:28:17,408 - INFO - Incoming connection from 127.0.0.1:51851
+2025-04-20 21:28:17,408 - INFO - Received nickname 'Client A' from ('127.0.0.1', 51851)
+2025-04-20 21:28:17,408 - INFO - Client Client A@('127.0.0.1', 51851) accepted.
+2025-04-20 21:28:28,891 - INFO - [Client A] Msg received: Client B:this is test 1...
+2025-04-20 21:28:28,891 - INFO - Relayed message from Client A to Client B
+2025-04-20 21:29:49,251 - INFO - Incoming connection from 127.0.0.1:52084
+2025-04-20 21:29:49,251 - INFO - Received nickname 'RR' from ('127.0.0.1', 52084)
+2025-04-20 21:29:49,252 - INFO - Client RR@('127.0.0.1', 52084) accepted.
