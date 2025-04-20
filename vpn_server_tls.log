@@ -36,3 +36,33 @@
 2025-04-20 21:29:49,251 - INFO - Incoming connection from 127.0.0.1:52084
 2025-04-20 21:29:49,251 - INFO - Received nickname 'RR' from ('127.0.0.1', 52084)
 2025-04-20 21:29:49,252 - INFO - Client RR@('127.0.0.1', 52084) accepted.
+2025-04-20 22:02:44,651 - INFO - SSL context created and certificate loaded.
+2025-04-20 22:02:44,652 - INFO - TLS VPN Server started on 0.0.0.0:8443
+2025-04-20 22:02:44,653 - INFO - Heartbeat monitor started.
+2025-04-20 22:04:00,528 - INFO - Incoming connection from 127.0.0.1:53812
+2025-04-20 22:04:00,529 - INFO - Received nickname 'Client B' from ('127.0.0.1', 53812)
+2025-04-20 22:04:00,529 - INFO - Client Client B@('127.0.0.1', 53812) accepted.
+2025-04-20 22:04:49,283 - INFO - Incoming connection from 127.0.0.1:53831
+2025-04-20 22:04:49,284 - INFO - Received nickname 'Client A' from ('127.0.0.1', 53831)
+2025-04-20 22:04:49,284 - INFO - Client Client A@('127.0.0.1', 53831) accepted.
+2025-04-20 22:04:53,142 - INFO - Incoming connection from 127.0.0.1:53835
+2025-04-20 22:04:53,143 - INFO - Received nickname 'Client B' from ('127.0.0.1', 53835)
+2025-04-20 22:04:53,143 - WARNING - Nickname conflict or invalid nickname for Client B from ('127.0.0.1', 53835).
+2025-04-20 22:04:53,145 - INFO - Closing connection handler for Client B from ('127.0.0.1', 53835)
+2025-04-20 22:04:53,146 - INFO - Cleaned up client Client B
+2025-04-20 22:04:53,146 - INFO - Client Client B disconnected gracefully (recv returned empty).
+2025-04-20 22:04:53,147 - INFO - Closing connection handler for Client B from ('127.0.0.1', 53812)
+2025-04-20 22:04:54,571 - INFO - Incoming connection from 127.0.0.1:53836
+2025-04-20 22:04:54,571 - INFO - Received nickname 'Client B' from ('127.0.0.1', 53836)
+2025-04-20 22:04:54,571 - INFO - Client Client B@('127.0.0.1', 53836) accepted.
+2025-04-20 22:05:04,665 - INFO - [Client A] Msg received: Client B:this is from client A...
+2025-04-20 22:05:04,665 - INFO - Relayed message from Client A to Client B
+2025-04-20 22:05:16,879 - INFO - [Client B] Msg received: Client A:this is from client B...
+2025-04-20 22:05:16,879 - INFO - Relayed message from Client B to Client A
+2025-04-20 22:05:30,290 - INFO - [Client A] initiating file transfer 'Solutions Manual for Introduction to Linear Algebra Fifth Edition by Gilbert Strang.pdf' (1628704 bytes) to Client B
+2025-04-20 22:05:30,310 - INFO - Successfully relayed file 'Solutions Manual for Introduction to Linear Algebra Fifth Edition by Gilbert Strang.pdf' (1628704 bytes) from Client A to Client B
+2025-04-20 22:05:55,167 - INFO - [Client B] initiating file transfer 'AnyDesk.exe' (7682368 bytes) to Client A
+2025-04-20 22:05:55,631 - INFO - Successfully relayed file 'AnyDesk.exe' (7682368 bytes) from Client B to Client A
+2025-04-20 22:07:19,721 - INFO - Client Client B disconnected gracefully (recv returned empty).
+2025-04-20 22:07:19,721 - INFO - Closing connection handler for Client B from ('127.0.0.1', 53836)
+2025-04-20 22:07:19,721 - INFO - Cleaned up client Client B
